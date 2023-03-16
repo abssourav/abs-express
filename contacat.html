@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- for seo -->
+    <meta name="description" content="This is an ecommerce project for abs sourav's protfolio">
+    <title>Abs Express</title>
+    <link rel="Shortcut icon" type="image/png" href="image/online-shop.png">
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- style for default -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+
+<body>
+
+    <!-- nav section started here -->
+    <i class="menu_icon fa-solid fa-bars" id="menu-icon"></i>
+
+    <nav class="hidden" id="menu">
+        <ul class="nav_upper space_around">
+            <li class="nav_list">
+                <a href="index.html" class="nav_link">Home</a>
+            </li>
+            <li class="nav_list">
+                <a href="register.html" class="nav_link">Register</a>
+            </li>
+            <li class="nav_list">
+                <a href="login.html" class="nav_link">Login</a>
+            </li>
+            <li class="nav_list">
+                <a href="index.html" class="nav_link">Logout</a>
+            </li>
+            <li class="nav_list">
+                <a href="contacat.html" class="nav_link">Contact</a></li>
+           
+            <li class="nav_list"><a href="profile.html" class="nav_link"><img class="profile_icon" src="image/profile.jpg" alt="Profile Icon"></a></li>
+        </ul>
+
+        <ul class="nav_lower space_around">
+            <li class="nav_list"><a href="index.html" class="nav_link nav_brand">Abs Express</a></li>
+
+            <li class="nav_list"><a href="cart.html" class="nav_link">
+                <span><i class="fa-solid fa-cart-shopping"></i></span> Cart 2 products - $124.40
+            </a></li>
+        </ul>
+        
+    </nav>
+    <!-- nav section ends here -->
+
+
+    <!-- main section starts here -->
+    <section class="contact-section ">
+        <h2 class="text-center">Contact Us</h2>
+        <div class="contact-feild flex-center">
+            <div class="register__form contact-form card">
+                <div class="reg__item">
+                    <label for="name">Name:</label>
+                        <input type="text" name="name" id="name" required autocomplete="name">
+                </div>
+                <div class="reg__item">
+                    <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" required autocomplete="email">
+                </div>
+                <div class="reg__item">
+                    <label for="message">Message:</label>
+                        <textarea name="message" id="message" ></textarea>
+                </div>
+                <div>
+                    <button class="reg-btn btn">
+                        submit
+                    </button>
+                </div>
+            </div>
+            <div class="address-section flex-center">
+                <address>
+                    <h4>Address:</h4>
+                    <p>Rupshi,Rupganj,Narayanganj.</p>
+                    <p>Dhaka,BD.</p>
+                    <a href="tel:+8801943698870"></a>
+                </address>
+                <iframe class="contact-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.252489606657!2d90.52451131534458!3d23.738373995151786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b5dfe6fd173b%3A0x19de74a176e3d38!2sRupshi!5e0!3m2!1sen!2sbd!4v1678933621194!5m2!1sen!2sbd"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            </div>
+        </div>
+    </section>
+    <!-- main section ends here -->
+
+
+
+
+    <!-- Footer section starts here -->
+    <footer class="footer space_around">
+        <div class="Subscribe_section space_around">
+            <label for="subscribe">Subscribe to Newsletter: </label>
+            <input type="email" name="subscribe" id="subscribe" class="subscribe_input" placeholder="Your Email Address">
+            <button class="btn subscribe_btn">Subscribe</button>
+
+        </div>
+        <div cl
+        ass="copyright_section">
+            <span class="copyright_title">&copy; Copyright 2023 Abs Sourav Express.All rights reserved</span>
+        </div>
+    </footer>
+      <!-- Footer section ends here -->
+
+
+
+      <!-- scrpt link here -->
+
+      <script src="script/index.js"></script>
+
+
+   
+</body>
+</html>
