@@ -169,7 +169,7 @@ nav{
 
 /* header section starts  here */
 .header{
-    background: url(/image/banner.jpg) no-repeat;
+    background: url(../image/banner.jpg) no-repeat;
     background-position: center;
     height: 70vh;
     background-size: cover;
